@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="recipe1.css">
+    <script type="text/javascript" src="recipe1.js"></script>
+</head>
+<body>
+
+<div class="headbar">
+    <div href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Johnson Family</div>
+
+    <div class="flexrow">
+        <div class="collapse navbar-collapse" >
+            <ul class="nav navbar-nav inverse">
+                <li><a href="index.html" style="color: white;"><span class="glyphicon glyphicon-home" aria-hidden="true" ></span> Home</a></li>
+            </ul>
+        </div>
+        <div class="linkrow">
+            <a href="javascript: dynamicpop('popup1')" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></a>
+            <div id="popup1" class="popoverbox" style="display:none;">
+                <a href="soup.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Soup</a>
+                <a href="american.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">American</a>
+                <a href="italian.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Italian</a>
+                <a href="chinese.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Chinese</a>
+                <a href="mexican.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Mexican</a>
+                <a href="slowcooker.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">SlowCooker</a>
+                <a href="breakfast.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Breakfast</a>
+                <a href="breads.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Breads</a>
+                <a href="occassions.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Occasions</a>
+                <a href="index.html" style="color: royalblue" class="glyphicon glyphicon-home" aria-hidden="true" ><span>Home</span></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section id="optin">
+    <div class="container">
+        <div class="jumbotron">
+            <h1><span class="glyphicon glyphicon-ice-lolly-tasted" aria-hidden="true"></span>Family Recipe Collection : Dessert</h1>
+            <p>Favorite recipes that have been collected.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>No Bake PB Bars</h2>
+                    <img src="http://images.media-allrecipes.com/userphotos/250x250/541492.jpg" alt="PB Bars" style="width: 300px; height: 200px;">
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModalPB"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>Rice Krispy Treats</h2>
+                    <img src="https://www.browneyedbaker.com/wp-content/uploads/2016/05/rice-krispies-treats-30-600-600x400.jpg" alt="Krispy Treats" style="width: 300px; height: 200px;">
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModalKrispy"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>Ellie's Great Rolls</h2>
+                    <img src="http://1.bp.blogspot.com/_adqgYPWOgWA/SVAxvItCuyI/AAAAAAAACNc/AH6o3Su1aNs/s400/IMG_2397.JPG" alt="Rolls" style="width: 300px; height: 200px;">
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModalRolls"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>Sugar Cookies</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hotfrog.jpg/1280px-Hotfrog.jpg" alt="Surgar Cookies" style="width: 300px; height: 200px;">
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModalSugarCookie"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>Recipe:</h2>
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>Recipe:</h2>
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="myModalPB" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title exampleModalLabel">No Bake PB Bars</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <li><em>1 c.</em> Melted Butter</li>
+                <li><em>1 c.</em> Peanut Butter</li>
+                <li><em>2 c.</em> Graham Crackers</li>
+                <li><em>2 c.</em> Pwd. Sugar</li>
+                <br>
+                <p>Melt together and place in bottom of an 8X10 pan.</p>
+                <li><em>1 1/2 c.</em> Chocolate Chips</li>
+                <li><em>4 T.</em> Peanut Butter</li>
+                <br>
+                <p>Melt together and place on top of the Peanut Butter mixture.  Let it harden in the fridge for approx. 2 hrs then cut and serve.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModalKrispy" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title exampleModalLabel">Rice Krispy Treats</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <li><em>6 T.</em> Butter</li>
+                <li><em>6 c.</em> Marshmallows</li>
+                <li><em>6 c.</em> Rice Cereal</li>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModalSugarCookie" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title exampleModalLabel">Sugar Cookies</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <li><em>2/3 c.</em> Shortening</li>
+                <li><em>2/3 c.</em> Butter</li>
+                <li><em>1 1/2 c.</em> White Sugar</li>
+                <li><em>2</em> Eggs</li>
+                <li><em>2 tsp.</em> Vanilla</li>
+                <li><em>3 1/2 c.</em> Flour</li>
+                <li><em>2 tsp.</em> Baking Powder</li>
+                <li><em>1 tsp.</em> Salt</li>
+                <br>
+                <p>Preheat oven to 350F. Cream together butter, shortening, and sugar. Then mix in eggs and vanilla. Add dry ingredients. Bake 8 - 10 minutes.</p>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModalRolls" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title exampleModalLabel">Ellie's Great Rolls</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <li><em>1 1/2 T.</em> Yeast</li>
+                <li><em>1/2 T.</em> Sugar</li>
+                <li><em>1/2 c.</em> Water</li>
+                <li><em>4 1/2 - 5 c.</em> Flour</li>
+                <li><em>1/4 c.</em> Sugar</li>
+                <li><em>1/2 T.</em> Salt</li>
+                <li><em>1 1/2 c.</em> Warm Water</li>
+                <li><em>1/4 c.</em> Oil</li>
+                <br>
+                <p>1. In a large bowl add 4.5 - 5 cups of flour, 1/4 c. sugar, and 1/2 T of salt.  Mix and add yeast mixture, 1 1/2 cup warm water and 1/4 cup of oil.  Mix well and let it rest for 30 min.</p>
+                <p>2. Knead and let it raise for 1 - 2 hrs as needed.  Bake at 375F for 20 - 35 min.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!------------------------------- BOOTSTRAP CORE JAVASCRIPT ------------------------------------------>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- if not on local-->
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

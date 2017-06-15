@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="recipe1.css">
+    <script type="text/javascript" src="recipe1.js"></script>
+</head>
+<body>
+<script type="text/javascript" src="recipe1.js"></script>
+<div class="headbar">
+    <div href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Johnson Family</div>
+
+    <div class="flexrow">
+        <div class="collapse navbar-collapse" >
+            <ul class="nav navbar-nav inverse">
+                <li><a href="index.html" style="color: white;"><span class="glyphicon glyphicon-home" aria-hidden="true" ></span> Home</a></li>
+            </ul>
+        </div>
+        <div class="linkrow">
+            <a href="javascript: dynamicpop('popup1')" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></a>
+            <div id="popup1" class="popoverbox" style="display:none;">
+                <a href="soup.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Soup</a>
+                <a href="american.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">American</a>
+                <a href="chinese.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Chinese</a>
+                <a href="mexican.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Mexican</a>
+                <a href="slowcooker.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">SlowCooker</a>
+                <a href="breakfast.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Breakfast</a>
+                <a href="breads.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Breads</a>
+                <a href="dessert.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Desserts</a>
+                <a href="occassions.html" style="color: royalblue" class="glyphicon glyphicon-cutlery" aria-hidden="true">Occasions</a>
+                <a href="index.html" style="color: royalblue" class="glyphicon glyphicon-home" aria-hidden="true" ><span>Home</span></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section id="optin">
+    <div class="container">
+        <div class="jumbotron">
+            <h1><span class="glyphicon glyphicon-ice-lolly-tasted" aria-hidden="true"></span>Family Recipe Collection : Italian</h1>
+            <p>Favorite recipes that have been collected.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>Sibonet's Alfredo</h2>
+                    <img src="http://www.primaverakitchen.com/wp-content/uploads/2015/10/Pumpkin-Alfredo-Sauce-Pasta_-4.jpg" alt="Alfredo Sauce" style="width: 300px; height: 200px;">
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModalAlfredo"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>Favorite Pizza Crust</h2>
+                    <img src="http://www.theprairiehomestead.com/wp-content/uploads/2016/02/no-knead-pizza-dough-2.jpg" alt="Alfredo Sauce" style="width: 300px; height: 200px;">
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModalPizza"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-4 col-xs-12 ">
+                <div class="thumbnail">
+                    <h2>Recipe:</h2>
+
+                    <!------------- Button trigger modal--------------------->
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal"><small>View     Recipe</small></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="myModalAlfredo" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title exampleModalLabel">Sibonet's Alfredo Sauce:</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <li><em>8 oz.</em> Cream Cheese</li>
+                <li><em>1/2 c.</em> Butter</li>
+                <li><em>3/4 c.</em> Parm Cheese</li>
+                <li><em>1/2 c.</em> Milk</li>
+                <br>
+                <p>Melt together and serve over your favorite pasta.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModalPizza" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title exampleModalLabel">Favorite Pizza Crust:</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <li><em>2 1/2 tsp.</em> Yeast</li>
+                <li><em>1 c.</em> Warm Water</li>
+                <li><em>2 1/2 c.</em> Flour</li>
+                <li><em>2 tsp.</em> Honey</li>
+                <li><em>1 tsp.</em> Salt</li>
+                <li><em>2 T.</em> Oil</li>
+                <br>
+                <p>Preheat overn to 400F. Bake crust for 8 - 10 min. Place favorite topping and bake for another 10 - 12 min.  Makes enough for 1 cookie sheet.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------------------------- BOOTSTRAP CORE JAVASCRIPT ------------------------------------------>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- if not on local-->
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
